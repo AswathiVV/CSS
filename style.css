@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(243, 243, 239);
+}
+h1{
+    color: black;
+}
+p{
+    color: blueviolet;
+}
+.a1,h3{
+    color: blue;
+}
+h3{
+    background-color: rgb(133, 129, 129);
+}
+.main,.main1{
+    width: 50%;
+    height: 300px;
+    color: azure;
+}
+.main{
+    margin-left:200px ;
+    margin-top: 100px;
+    margin-right:100px; 
+    margin-bottom:200px ;
+    background-color: rgb(224, 142, 142);
+    padding-top: 50px;
+    padding-left: 500px;
+}
+.main1{
+    background-color: blue;
+}
