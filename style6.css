@@ -1,0 +1,47 @@
+.main{
+    width: 1250px;
+    height: 700px;
+    left: 300px;
+    background-color: ;
+    position: relative;
+}
+.sub1{
+    width:300px;
+    height: 600px;
+    left: 10px; ;
+    top: 10px; ;
+    background-color: rgb(228, 187, 240);
+    position: absolute;
+}
+.sub2{
+    width:300px ;
+    height: 600px; ;
+    left:320px ;
+    top: 10px; ;
+    background-color: rgb(128, 128, 224);
+    position:absolute;
+}
+.sub3{
+    width: 300px; ;
+    height: 600px; ;
+    left: 630px ;
+    top: 10px; ;
+    background-color:plum ;
+    position: absolute;
+
+}
+.sub4{
+    width:300px;
+    height: 600px;
+    left: 940px; ;
+    top: 10px;
+    background-color: grey;
+    position: absolute;
+
+}
+
+
+    
+    
+    
+}

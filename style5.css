@@ -1,0 +1,23 @@
+.main{
+    width:500px ;
+    height:400px ;
+    background-color:red;
+    position: relative;
+}
+.sub1{
+
+    position:absolute;
+    bottom:100px ;
+    right:100px ;
+    width: 300px ;
+    height: 200px ;
+    background-color:green;
+}
+.sub2{
+    position: absolute;
+    top:137px ;
+    left: 170px; ;
+    width: 150px ;
+    height: 125px ;
+    background-color: blue ;
+}
