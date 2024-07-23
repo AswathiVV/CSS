@@ -1,0 +1,32 @@
+h1{
+    border: 2px solid rgb(80, 10, 10);
+    border-radius: 1000px;
+    margin: 30px;
+    padding: 15px;
+    height: 50px;
+    width: 400px;
+    text-align: center;
+    text-decoration: underline overline;
+    
+    letter-spacing: 4px;
+    line-height: 10px;
+    word-spacing: 5px;
+    text-shadow: 5px 5px 5px rgb(243, 199, 243);
+
+}
+h1 span{
+    vertical-align:none;
+
+}
+p{
+    text-indent: 60px;
+    word-spacing: 5px;
+    text-shadow: 5px 5px 5px rgb(7, 88, 116);
+    letter-spacing: 4px;
+    line-height: 40px;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 19px;
+    font-size: 1.5em;
+    
+}
