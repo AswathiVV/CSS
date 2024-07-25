@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main{
+        position: relative;
+    }
+    .black-box{
+        position: relative;
+        border: 2px solid;
+        margin: 30px;
+        height: 100px;
+
+    }
+    .grey-box{
+        position: absolute;
+        background:grey;
+        height: 60px;
+        width: 70%;
+        left: 50px;
+        top: 50px;
+
+    }
+    .green-box{
+        position: absolute;
+        background: lightgreen;
+        height: 100px;
+        width: 35%;
+        left: 270px;
+        top: -15px;
+
+    }
+</style>
+<body>
+    <h2>Overlapping Elements</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias distinctio aperiam accusamus repellendus dignissimos, alias neque animi recusandae perferendis sequi ullam reprehenderit facilis dolor unde minima obcaecati odio eos ratione.</p>
+    <div class="main">
+        <div class="black-box">Black box</div>
+        <div class="green-box">Green box</div>
+        <div class="grey-box">Grey box</div>
+    </div>
+</body>
+</html>
