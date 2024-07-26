@@ -8,11 +8,9 @@
 <style>
     ul{
         overflow: hidden;
-        background-color: rgb(36, 148, 177);
         list-style-type: none;
         padding: 0px;
         margin: 0px;
-
     }
     li{
         float: left;
@@ -26,13 +24,17 @@
         text-decoration: none;
 
     }
-    li a:hover{
+    li a:hover:not(.active){
         background-color: black;
+    }
+    li a.active{
+        background-color: rgb(177, 59, 59);
+        color: blueviolet;
     }
 </style>
 <body>
     <ul>
-        <li><a href=>Home</a></li>
+        <li><a class="active" href=>Home</a></li>
         <li><a href=>News</a></li>
         <li><a href=>contact</a></li>
         <li><a href=>About</a></li>
