@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .tem1{ grid-area:header;}
+    .tem2{ grid-area:menu;}
+    .tem3{ grid-area:main;}
+    .tem4{ grid-area:right;}
+    .tem5{ grid-area:footer;}
+
+    .grid-container{
+        display: grid;
+        grid-template-areas: 
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+         gap: 10px;
+         background-color:black ;
+         padding: 10px;
+          }
+
+
+    .grid-container > div{
+        text-align: center;
+        padding: 20px 0;
+        background-color: cornflowerblue;
+        font-size: 30px;
+
+    }     
+</style>
+<body>
+    <h1>The grid-area property</h1>
+    <div class="grid-container">
+        <div class="item1">Header</div>
+        <div class="item2">Menu</div>
+        <div class="item3">Main</div>
+        <div class="item4">Right</div>
+        <div class="item5">Footer</div>
+       
+    </div>
+
+    
+    
+</body>
+</html>
