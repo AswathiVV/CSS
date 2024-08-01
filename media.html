@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    .wrapper{
+        overflow: auto;
+    }
+    #main{ 
+        margin-left: 4px;
+    }
+    #leftsidebar{
+        float: none;
+        width: auto;
+    }
+    #menulist{
+        padding: 0;
+        margin: 0;
+    }
+    
+    .menuitem{
+        background-color: lightblue;
+        border: 1px solid gray;
+        border-radius: 4px ;
+        list-style-type: none;
+        margin: 4px;
+        padding: 2px;
+    }
+    @media screen and (min-width:560px) {
+        #left{ width: 200px; float: left;}
+        #sub{ margin-left: 216px;}
+    }
+        
+    
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div id="leftsidebar"></div>
+        <ul id="menulist">
+            <li class="menuitem">Menu-item 1</li>
+            <li class="menuitem">Menu-item 1</li>
+            <li class="menuitem">Menu-item 1</li>
+            <li class="menuitem">Menu-item 1</li>
+            <li class="menuitem">Menu-item 1</li>
+        </ul>
+        <div id="main">
+            <h1>Resize the browser window to see the effect!</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa provident itaque quisquam magnam ullam, excepturi quae neque repudiandae facilis iure ex adipisci officia ipsa nesciunt perspiciatis, voluptatem error ratione blanditiis!</p>
+        </div>
+    </div>
+    
+</body>
+</html>
